@@ -1,0 +1,119 @@
+#box {
+  width: 50%;
+  margin: 100px auto;
+  display: flow-root;
+}
+
+.one {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: ;
+  margin: 15px;
+  float: left;
+}
+.two {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: 30%;
+  margin: 15px;
+  float: left;
+}
+.three {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: 50%;
+  margin: 15px;
+  float: left;
+}
+.four {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: 20% 0 20% 0;
+  margin: 15px;
+  float: left;
+}
+
+.five {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: 90% 0 0 0;
+  margin: 15px;
+  float: left;
+}
+.six {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: 10% 10% 10% 10%;
+  margin: 15px;
+  float: left;
+}
+.seven {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: 90% 0 90% 0;
+  margin: 15px;
+  float: left;
+}
+.eight {
+  background: darkmagenta;
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+  border-radius: 50% 50% 0 0;
+  margin: 15px;
+  float: left;
+}
+#box-2 {
+  width: 50%;
+  margin: 100px auto;
+  display: flow-root;
+}
+.inside {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  border: 1px solid blue;
+  border-radius: 20%;
+  box-shadow: inset 10px 10px rgba(0, 0, 0, 0.4);
+  float: left;
+  margin: 20px;
+}
+.outside {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  border: 1px solid blue;
+  border-radius: 20%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.8);
+  float: left;
+  margin: 20px;
+}
+
+.green {
+  background: green;
+  width: 650px;
+  height: 400px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+.red {
+  background: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 82px 228px;
+}
